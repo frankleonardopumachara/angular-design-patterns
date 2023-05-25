@@ -1,0 +1,8 @@
+<ng-template *ngIf="postResult$.state$ | async as postsResult">
+  <p *ngIf="postsResult.loading">Loading...</p>
+  <p *ngIf="postsResult.error">Error...!</p>
+  <p *ngIf="postsResult.result">{{ postsResult.result }}</p>
+</ng-template>
+
+
+

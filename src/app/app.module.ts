@@ -18,8 +18,9 @@ import {FilterComponent} from './table-and-filter-mvp/filter.component'
 import {SortComponent} from './table-and-filter-mvp/sort.component'
 import {NewWayFormsModule} from './new-way-forms/new-way-forms.module'
 import {AppComponent} from './app.component'
-import {TableModule} from 'primeng/table';
-import { UnsortDirective } from './unsort.directive'
+import {TableModule} from 'primeng/table'
+import {UnsortDirective} from './unsort.directive'
+import {ResultStateExampleComponent} from './result-state-example/result-state-example.component'
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { UnsortDirective } from './unsort.directive'
     FilterComponent,
     SortComponent,
     AppComponent,
-    UnsortDirective
+    UnsortDirective,
+    ResultStateExampleComponent,
   ],
   imports: [
     BrowserAnimationsModule,
